@@ -1,0 +1,38 @@
+@import 'Header.css';
+@import 'Sidenav.css';
+@import 'Main.css';
+@import 'Main2.css';
+@import 'laptop.css';
+@import 'laptopLarge.css';
+@import 'talet.css';
+@import 'mobile.css';
+
+*{
+    margin: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 25% 73%;
+    grid-template-rows: 0.7fr 9fr;
+    grid-template-areas: 
+    'header header'
+    'sidenav main';
+    gap: 1%;
+    padding: 1%;
+    
+}
+
+
+
+/* body{
+    border: 25px solid #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    'header header'
+    'sidenav main';
+   
+              
+} */
