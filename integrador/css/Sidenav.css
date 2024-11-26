@@ -1,0 +1,29 @@
+nav{
+    grid-area: sidenav;
+    display: flex;
+    background-color: #edf9eb;
+    width: 100%;
+    height: 100%; 
+    justify-content: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 8, 20%);
+}
+
+
+@media ( max-width:425px){
+    nav{
+        display: none;
+    }
+}
+
+.add-relatorio{
+     display: flex;
+     width: 90%;
+     height: 4%;
+     background-color: #C8e1c4;
+     font-family: 'Inter';
+     font-size: 15px;
+     font-weight: 700;
+     align-items: center;
+     justify-content: center;
+     margin-top: 30px;
+}
