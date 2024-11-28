@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title>Relata Fácil</title>
+</head>
+<body>
+    
+    <Header>
+        <div class="complemento">
+            <img class="logo" src="img/documento.svg" alt="icone adicionar documento">
+            <p class="titulo-logo">Relata Fácil</p>
+        </div>
+    </Header>
+
+    <nav>
+        <button class="add-relatorio" id="teste">
+            <p>+ Adicionar Relatorio</p>
+        </button>
+			<ul id="relatorioList"></ul>
+    </nav>
+
+    <main class="main1">
+       
+		<form id="relatorioForm">
+        <div>
+        	<div  class="row-register-file">
+            <input id="nomeCriador" type="text" class="info-relatorio" placeholder="Nome do Criador do Relatório"></input>
+            <input id="nomeSetor" type="text" class="info-relatorio" placeholder=" Nome do Setor"></input>
+            <input id="nomeRelatorio" type="text" class="info-relatorio" placeholder="Nome do Relatório"></input>
+        	</div>
+            	<div class="sobre-ralatorio">
+                <p class="nome-relatorio"> Projeto Teste </p>
+				<input id="urlImagem" type="text" class="info-relatorio" placeholder="URL Imagem..."></input>
+                <button type="submit" class="save"><img class="save-img" src="img/disco.svg" alt="button de salvar"></button>
+            	</div>
+        	<div class="textarea">
+			<textarea id="texto" type="text" class="digite-aqui" placeholder="Digite aqui..." ></textarea>
+			</div>
+        </div>
+		</form>
+    </main>
+	
+	<link rel="stylesheet" href="javascript.js">
+   <script src="javascript.js"></script>
+
+</body>
+</html>
